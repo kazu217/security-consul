@@ -1,0 +1,19 @@
+# 環境変数・秘密情報
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+
+# 状態ファイル（実行時生成）
+state/
